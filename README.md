@@ -1,5 +1,5 @@
-Tests on a linear parabolic equation
-$$-\nabla u+\frac{1}{\mu}e^{\mu u-1}=100*sin(2\pi*x)*sin(2\pi*y)$$
+Tests on a non linear elliptic equation
+$$-\nabla u+\frac{1}{\mu}e^{\mu u-1}=100*sin(2\pi*x)*sin(2\pi*y) $$
 with boundary and initial conditions equal to 0 everywhere. Inspired from [this](https://github.com/RBniCS/RBniCS/blob/master/tutorials/07_nonlinear_elliptictutorial_nonlinear_elliptic_exact.ipynb).
 
 |Method                                     |Train error|Test Error|Time   |
